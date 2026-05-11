@@ -35,6 +35,32 @@ li {
 }
 .card {
     height: 100px;
-    width: 50px;
+    width: 70px;
     background-color: cornsilk;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.peter {
+    height: 90px;
+}
+
+.brian {
+    height: 60px;
+}
+
+.stewie {
+    height: 50px;
+}
+.lois{
+    height: 90px;
+}
+.chris {
+    height: 80px;
+}
+
+.meg {
+    height: 80px;
 }
