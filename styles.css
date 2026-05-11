@@ -7,6 +7,7 @@ body {
     display: flex;
     background-color: antiquewhite;
     justify-content: space-between;
+    align-items: center;
     padding: 0px 20px;
 }
 
@@ -23,7 +24,10 @@ li {
 }
 
 .logo {
-    height: 200px;
+    height: 100px;
+    width: 250px;
+    object-fit: cover;
+    flex: 0;
 }
 .container{
     display: flex;
