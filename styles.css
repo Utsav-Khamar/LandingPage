@@ -24,5 +24,13 @@ li {
 
 .logo {
     height: 200px;
-    object-position: 90%;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+.card {
+    height: 100px;
+    width: 50px;
+    background-color: cornsilk;
 }
