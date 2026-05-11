@@ -6,11 +6,15 @@ body {
 .header {
     display: flex;
     background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 0px 20px;
 }
 
 .hero {
     display: flex;
     background-color: aquamarine;
+    justify-content: space-between;
+    padding: 0px 20px;
 }
 
 li {
@@ -18,7 +22,7 @@ li {
  
 }
 
-img {
-    display: inline;
-    border: 2px solid black;
+.logo {
+    height: 200px;
+    object-position: 90%;
 }
