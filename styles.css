@@ -3,7 +3,14 @@ body {
     padding: 0px;
 }
 
-button {
+.logo {
+    height: 100px;
+    width: 250px;
+    object-fit: cover;
+    flex: 0;
+}
+
+.hero button {
     border: none;
     background-color: black;
     color: white;
@@ -56,27 +63,35 @@ button {
 .banner{
     height: 100%
 }
-li {
+/* li {
     display: inline; 
  
-}
+} */
 
-.logo {
-    height: 100px;
-    width: 250px;
-    object-fit: cover;
-    flex: 0;
+.character-profile {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
-
-.character-profile h2 {
+.character-profile .title h2, .plans .title h2 {
     text-align: center;
     font-family: "Luckiest Guy", cursive;
         color: tomato;
         font-weight: bold;
         font-size: 50px;
         text-align: center;
-        margin: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
 
+.character-profile .title p,
+.plans .title p {
+    font-family: "Cause", cursive;
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .container{
@@ -87,7 +102,7 @@ li {
 }
 
 
-.card {
+.character-profile .card {
     box-sizing: border-box;
     height: 550px;
     width: 400px;
@@ -133,4 +148,52 @@ li {
 }
 .meg {
     height: 60%;
+}
+
+.plans {
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.plans .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plans .container .card {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plans .card div,
+.plans .card p{
+    font-family: "Cause",
+        cursive;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+
+.plans .card ul {
+    padding: 0px;
+    font-family: "Cause",
+        cursive;
+    list-style-type: "✓ ";
+    list-style-position: inside;
+}
+
+.plans .card button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
