@@ -10,6 +10,21 @@ body {
     flex: 0;
 }
 
+.header ul{
+    list-style: none;
+}
+.header li {
+    display: inline;
+}
+.header a{
+    text-decoration: none;
+    font-family: "Cause",
+            cursive;
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
 .hero button {
     border: none;
     background-color: black;
