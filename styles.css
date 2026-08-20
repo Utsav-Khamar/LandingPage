@@ -52,6 +52,7 @@ body {
     flex-wrap: wrap;
     background-color: aquamarine;
     justify-content: space-between;
+    justify-items: center;
     align-items: flex-end;
     padding: 0px 20px;
 }
@@ -148,6 +149,7 @@ body {
     gap: 100px;
     flex-wrap: wrap;
     justify-content: center;
+    justify-items: center;
 }
 
 .character-profile .card {
@@ -219,8 +221,8 @@ body {
     gap: 100px;
     flex-wrap: wrap;
     justify-content: center;
+    justify-items: center;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .plans .container .card {
@@ -243,11 +245,11 @@ body {
 }
 
 .plans .card ul {
-    padding: 0px;
+    padding: 20px;
     font-family: "Cause",
         cursive;
     list-style-type: "✓ ";
-    list-style-position: inside;
+    list-style-position: outside;
 }
 
 .plans .card button {
