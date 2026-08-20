@@ -1,46 +1,10 @@
+/* SETTING UP THE BLANK CANVAS */
 body {
     margin: 0px;
     padding: 0px;
 }
 
-.logo {
-    height: 100px;
-    width: 250px;
-    object-fit: cover;
-    flex: 0;
-}
-
-.header ul{
-    list-style: none;
-}
-.header li {
-    display: inline;
-}
-.header a{
-    text-decoration: none;
-    font-family: "Cause",
-            cursive;
-    color: rgba(0, 0, 0, 0.60);
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-}
-.hero button {
-    border: none;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    width: 150px;
-    padding: 10px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    
-}
-.call-to-action{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 40px;    
-}
+/* --------HEADER SECTION-------- */
 .header {
     display: flex;
     background-color: antiquewhite;
@@ -49,16 +13,44 @@ body {
     padding: 0px 20px;
 }
 
+.header .logo {
+    height: 100px;
+    width: 250px;
+    object-fit: cover;
+    flex: 0;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header li {
+    display: inline;
+}
+
+.header a {
+    text-decoration: none;
+    font-family: "Cause",
+        cursive;
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* --------HERO SECTION-------- */
 .hero {
     display: flex;
     background-color: aquamarine;
     justify-content: space-between;
     padding: 0px 20px;
 }
-.hero .content{
+
+.hero .content {
     margin: auto auto;
 }
-.hero h2{
+
+.hero h2 {
     font-family: "Luckiest Guy", cursive;
     color: #00A0D4;
     font-weight: bold;
@@ -67,36 +59,54 @@ body {
     margin: 0px;
 }
 
-.hero p{
-    font-family:"Cause",
+.hero p {
+    font-family: "Cause",
         cursive;
     color: rgba(0, 0, 0, 0.60);
     font-weight: bold;
     text-align: center;
     margin: 0px 60px;
 }
-.banner{
+
+.hero .call-to-action {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.hero button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.banner {
     height: 100%
 }
+
 /* li {
     display: inline; 
  
 } */
 
-.character-profile {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
-.character-profile .title h2, .plans .title h2 {
+
+
+/* --------CHARACTER PROFILE AND PLAN TITLE AND SUBTITLE-------- */
+.character-profile .title h2,
+.plans .title h2 {
     text-align: center;
     font-family: "Luckiest Guy", cursive;
-        color: tomato;
-        font-weight: bold;
-        font-size: 50px;
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 0px;
+    color: tomato;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .character-profile .title p,
@@ -109,13 +119,19 @@ body {
     margin-bottom: 50px;
 }
 
-.container{
+/* --------CHARACTER PROFILES-------- */
+.character-profile {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.character-profile .container {
     display: flex;
     gap: 100px;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 
 .character-profile .card {
     box-sizing: border-box;
@@ -127,7 +143,8 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
-.card .name{
+
+.card .name {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;
@@ -144,27 +161,35 @@ body {
     padding: 10px;
     padding-bottom: 0px;
     font-family: "Cause",
-            cursive;
+        cursive;
 }
+
 .peter {
     height: 70%;
 }
+
 .brian {
     height: 40%;
 }
+
 .stewie {
     height: 30%;
 }
-.lois{
+
+.lois {
     height: 70%;
 }
+
 .chris {
     height: 60%;
 }
+
 .meg {
     height: 60%;
 }
 
+
+/* --------PLANS SECTION-------- */
 .plans {
     background-color: floralwhite;
     display: flex;
@@ -173,6 +198,10 @@ body {
 }
 
 .plans .container {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -188,7 +217,7 @@ body {
 }
 
 .plans .card div,
-.plans .card p{
+.plans .card p {
     font-family: "Cause",
         cursive;
     font-weight: bold;
@@ -213,22 +242,24 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* --------FOOTER SECTION-------- */
 .footer {
     background-color: tomato;
 }
 
-.footer div{
+.footer div {
     color: white;
     padding: 10px;
     margin: 0px;
     text-align: center;
 }
-.footer p{
+
+.footer p {
     margin: 0px;
     padding: 0px;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     color: black;
 }
