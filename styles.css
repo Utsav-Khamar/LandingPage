@@ -13,15 +13,23 @@ body {
     padding: 0px 20px;
 }
 
+
+.header .div {
+    flex: 1;
+}
+
+
 .header .logo {
     height: 100px;
     width: 250px;
     object-fit: cover;
     flex: 0;
+    max-width: 120%;
 }
 
 .header ul {
     list-style: none;
+    text-align: right;
 }
 
 .header li {
@@ -41,9 +49,15 @@ body {
 /* --------HERO SECTION-------- */
 .hero {
     display: flex;
+    flex-wrap: wrap;
     background-color: aquamarine;
     justify-content: space-between;
+    align-items: flex-end;
     padding: 0px 20px;
+}
+
+.hero div {
+    flex: 1 1 auto;
 }
 
 .hero .content {
@@ -86,8 +100,11 @@ body {
 }
 
 .banner {
-    height: 100%
+    width: 100%;
+    display: block;
+    margin: auto auto;
 }
+
 
 /* li {
     display: inline; 
